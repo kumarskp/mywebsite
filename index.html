@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Satish | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="mobile-menu">
+            <i class="fas fa-bars fa-2x bars" onclick="showMenu();"></i>
+        </div>
+        <nav id="navbar" class="navbar">
+            <a href="#banner">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    <div id="container" class="container" onclick="removeClass()">
+        <section id="banner" class="banner">
+            <div class="banner-text">
+                <h3 class="intro">Hi, My name is Satish Kumar</h3>
+                <p class="intro"><i class="fas fa-praying-hands fa-2x"></i> Welcome to my website!</p>
+                <a href="#contact">Contact Me</a>
+            </div>
+            <div class="banner-overlay">
+
+            </div>
+        </section>
+        <section id="about" class="about">
+            <h2>About me</h2>
+            <div class="about-container">
+                <div class="img-container">
+                    <img src="images/about1.jpg" alt="mypic">
+                </div>
+                <div class="text-container">
+                    <h3 style="border-bottom:1px solid cyan;">Satish kumar</h3>
+                    <h4 style="border-bottom:1px solid cyan;">Front-end web developer</h4>
+                    <p>I am a passionate front-end web developer and ui/ux
+                        designer.
+                        I have good experience in creating modern and highly Responsive websites which looks good on any
+                        screen size.
+                    </p>
+                    <div class="skills" style="margin-top:20px; word-spacing: 1em;">
+                        <h4>Skills:</h4>
+                        <i class="fab fa-html5 fa-4x" style="color:orangered;"></i>
+                        <i class="fab fa-css3 fa-4x" style="color:blue;"></i>
+                        <i class="fab fa-js-square fa-4x" style="color:rgb(241, 228, 32);"></i>
+                        <i class="fab fa-bootstrap fa-4x" style="color:blueviolet;"></i>
+                        <i class="fab fa-angular fa-4x" style="color:red;"></i>
+                        <i class="fab fa-sass fa-4x" style="color:rgb(236, 141, 157);"></i>
+                        <i class="fab fa-git fa-4x" style="color:#444;"></i>
+
+                        <p
+                            style="margin-top:20px; word-spacing:0.3em; font-size:16px ;border-top:1px solid cyan; border-bottom:1px solid cyan; ">
+                            Html5 | CSS3 | Javascript |
+                            Bootstrap | jQuery | Angular | Sass | Git </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <section id="services" class="services">
+            <h2>What I Offer</h2>
+            <div class="services-container">
+                <div class="service service-1">
+                    <i class="fa fa-code fa-3x service-icon" style="color:dodgerblue;"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum maxime expedita distinctio, alias
+                        ducimus fugiat voluptates. Voluptatibus voluptates impedit nobis!</p>
+                </div>
+                <div class="service service-2">
+                    <i class="fab fa-android fa-3x service-icon" style="color:green;"></i>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum maxime expedita distinctio, alias
+                        ducimus fugiat
+                        voluptates. Voluptatibus voluptates impedit nobis!</p>
+                </div>
+                <div class="service service-3">
+                    <i class="fa fa-search fa-3x service-icon" style="color:orange;"></i>
+                    <h3>Seo Services</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum maxime expedita distinctio, alias
+                        ducimus fugiat
+                        voluptates. Voluptatibus voluptates impedit nobis!</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+                <div class="project project-1">
+                    <img src="images/project-1.png" alt="Portfolio website">
+                    <a href="https://codepen.io/iamskp/full/wrgpLa" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Portfolio website</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project project-2">
+                    <img src="images/project-2.png" alt="Local weater app">
+                    <a href="https://codepen.io/iamskp/full/rYoVGW" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Local weather app</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project project-3">
+                    <img src="images/project-3.png" alt="Random quote machine">
+                    <a href="https://codepen.io/iamskp/full/mqadYE" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Random quote machine</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project project-4">
+                    <img src="images/project-4.png" alt="Product landing page">
+                    <a href="https://codepen.io/iamskp/full/LqodBe" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Product landing page</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project project-5">
+                    <img src="images/project-5.png" alt="Technical documentation page">
+                    <a href="https://codepen.io/iamskp/full/ZwPNWN" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Technical documentation page</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+                <div class="project project-6">
+                    <img src="images/project-6.png" alt="Tribute page">
+                    <a href="https://codepen.io/iamskp/full/BwQPqG" target="_blank" class="projectbtn">View</a>
+                    <!-- <h3 class="project-caption">Tribute page</h3> -->
+                    <div class="project-overlay"></div>
+                </div>
+
+            </div>
+            <!-- modal image -->
+            <div id="modal" class="modal-container">
+                <a id="anchor" href="" target="_blank"><img class="modal-img" id="img-box"
+                        title="Click on image to view project"></a>
+                <span id="closebtn" class="closebtn">&times;</span>
+                <p id="caption" class="caption">Caption</p>
+            </div>
+
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact me</h2>
+            <div class="social">
+                <a href="https://twitter.com/iamskp01" target="_blank" class="twitter" style="color:#00acee;"> <i
+                        class="fab fa-twitter fa-2x" alt="twitter"></i><br> Twitter</a>
+                <a href="https://github.com/kumarskp" target="_blank" class="github" style="color:black" ;> <i
+                        class="fab fa-github fa-2x"></i> <br> Github</a>
+                <a href="#" class="google" style="color:rgb(221, 68, 68)" ;><i
+                        class="fas fa-envelope fa-2x"> </i><br>
+                    Email</a>
+            </div>
+            <div class="contact-container">
+                <form class="form">
+                    <fieldset>
+                        <legend><i class="fas fa-users fa-3x" style="color:dodgerblue"></i></legend>
+
+                        <input type="text" id="username" placeholder="Enter your fullname*" required><br>
+                        <input type="email" id="email" placeholder="Enter your email*" required><br>
+                        <textarea name="textarea" id="message" cols="30" rows="10" placeholder="Enter your message*"
+                            required></textarea>
+                        <input type="submit" class="submit" value="Send Message"><br>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>Copyright &copy Satish kumar 2019. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
